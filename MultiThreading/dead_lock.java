@@ -25,7 +25,7 @@ class test implements Runnable
                         System.out.println("Student 1 has acquired "+res2);
                         Thread.sleep(3000);
 
-                        synchronized(res3)
+                        synchronized(res1)
                         {
                             System.out.println("Student 1 has acquired "+res3);
                             Thread.sleep(3000);
